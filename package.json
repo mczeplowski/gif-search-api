@@ -1,0 +1,29 @@
+{
+  "name": "gif-search-api",
+  "version": "1.0.0",
+  "description": "Service that allows to search gifs from two pages by phrase.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/App.js",
+    "compile": "babel src/ --out-dir dist",
+    "server": "node dist/App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mczeplowski/gif-search-api.git"
+  },
+  "author": "Mateusz Czepłowski",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
