@@ -15,9 +15,11 @@ npm install
 npm run compile
 `
 
-3. `
+3. Create file 'api-keys.json' contains `{}` or api keys like in develop process.
+
+4. If your 'api-keys.json' has empty object you have to run `
 npm run server -- --pixabayApiKey=xxxxxxx --giphyApiKey=xxxxxxxx
-`
+` but if you have api keys in this file you can run `npm run server`.
 
 # How to develop
 
