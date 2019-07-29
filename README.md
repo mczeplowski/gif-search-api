@@ -27,12 +27,12 @@ Steps:
 npm install
 `
 
-2. You have to create file 'api-keys.json' in main project catalog contains `
+2. You have to create file 'api-keys.json' contains `
 {
   pixabayApiKey: xxxxx,
   giphyApiKey: xxxxx,
 }
-`
+` in main project catalog.
 
 3. `
 npm start
