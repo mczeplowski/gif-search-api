@@ -50,13 +50,13 @@ function normalize(array) {
 
   if (array.data) {
     return array.data.map(gif => {
-      const { url } = gif.images.downsized_medium;
-      return { url };
+      const { url, height } = gif.images.downsized_medium;
+      return { url, height: +height };
     });
   }
 
   return array.hits.map(img => {
-    const { webformatURL: url } = img;
-    return { url };
+    const { webformatURL: url, imageHeight } = img;
+    return { url, height: +imageHeight };
   });
 }
