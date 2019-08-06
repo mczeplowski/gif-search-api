@@ -32,8 +32,8 @@ npm install
 2. You must create file 'api-keys.json' in main project catalog that contains
 ```json
 {
-  pixabayApiKey: xxxxx,
-  giphyApiKey: xxxxx,
+  "pixabayApiKey": "xxxxx",
+  "giphyApiKey": "xxxxx",
 }
 ```
 
